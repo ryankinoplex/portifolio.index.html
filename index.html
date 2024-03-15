@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="3d89a96c-a7a5-41a7-998e-fe24216235a2.webp" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pedro Ryan Cavalcante">Pedro Ryan Cavalcante</h1>
+
+          <p class="title">Estudante de Segurança da Informação</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="pedroryancavalcante27@gmail.com" class="contact-link">pedroryancavalcante27@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+55 11 91594-0726" class="contact-link">+55 11 91594-0726</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-12-17">December 17, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>São Paulo, Brasil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Sobre Mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Sou um estudante de segurança da informação, com experiência em analise de dados e desenvolvimento web
+          </p>
+
+          <p>
+            Estudante dedicado de Segurança da Informação, trago consigo uma sólida base teórica aliada a experiências práticas em proteção de dados, redes e sistemas. Minha paixão por enfrentar desafios e aprender continuamente impulsiona meu desejo de crescer profissionalmente no mundo da segurança cibernética. Busco oportunidades que me permitam aplicar e expandir meus conhecimentos, contribuindo para a construção de ambientes digitais mais resilientes e protegidos.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Oque eu faço?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="8920930.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Proeficiencia em design de graficos e Buissnes Inteligence</h4>
+
+                <p class="service-item-text">
+                  Profissional altamente competente em design gráfico e Power BI, com sólida experiência na criação de gráficos e visualizações de dados envolventes e impactantes. Demonstrada habilidade em transformar informações complexas em representações visuais claras e eficazes, resultando em análises precisas e tomadas de decisão fundamentadas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="1486565573-microsoft-office_81557.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pacote Office</h4>
+
+                <p class="service-item-text">
+                 Profissional com vasta experiência no Pacote Office, demonstrando habilidades avançadas em Word, Excel, PowerPoint e Outlook. Capacidade comprovada de criar documentos, planilhas e apresentações de alta qualidade, além de gerenciar e-mails de forma eficiente.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Aplicativos Mobile</h4>
+
+                <p class="service-item-text">
+                  Profissional com sólida experiência em desenvolvimento e uso de aplicativos móveis, demonstrando habilidades abrangentes em design, desenvolvimento e testes de aplicativos para plataformas iOS e Android. Experiência comprovada na criação de interfaces de usuário intuitivas e atraentes, garantindo uma experiência de usuário excepcional.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Edição de fotos</h4>
+
+                <p class="service-item-text">
+                  Profissional com vasta experiência em edição de fotos, demonstrando habilidades avançadas em softwares de edição como Adobe Photoshop e Lightroom. Experiência sólida na manipulação de imagens, correção de cores, retoque de fotos, composição e criação de efeitos visuais impressionantes.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="unnamed.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="telhanorte-logo-0.png" alt="client logo">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="logoRede200x200.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formações</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Uninove</h4>
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Durante minha jornada como estudante de Segurança da Informação, adquiri habilidades valiosas e experiência prática em proteger sistemas e dados contra ameaças cibernéticas. Minhas atividades incluíram análise de vulnerabilidades, implementação de medidas de segurança, investigação de incidentes de segurança, e participação em projetos de conscientização e treinamento. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">EEEP Maria Eudes Bezerra Veras</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                Como estudante do curso técnico de informática, tive a oportunidade de desenvolver uma sólida base de conhecimento em diversas áreas da tecnologia da informação. Minhas atividades incluíram a resolução de problemas de hardware e software, desenvolvimento de programas e aplicativos, configuração de redes de computadores e administração de sistemas
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Curso extracurricular em Cloud Computing - AWS Academy</h4>
+
+              <span>06/2022 — 07/2022</span>
+
+              <p class="timeline-text">
+                Durante meu curso extracurricular na AWS Academy de Cloud Computing, desenvolvi habilidades essenciais na implantação e gerenciamento de infraestrutura em nuvem utilizando os serviços da AWS. Participei de aulas práticas e projetos que abordaram conceitos fundamentais de computação em nuvem, como provisionamento de servidores, armazenamento de dados, segurança da informação e escalabilidade de aplicativos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ocupações Administrativas - TelhaNorte</h4>
+
+              <span>2023— Presente</span>
+
+              <p class="timeline-text">
+                Trabalhar como jovem aprendiz em ocupações administrativas na Telha Norte foi uma experiência enriquecedora e transformadora. Desde o momento em que entrei pela porta da empresa, fui recebido com calorosas boas-vindas e um ambiente acolhedor, onde a aprendizagem era valorizada e incentivada.
+ Minhas atividades diárias envolviam uma variedade de tarefas administrativas, desde auxiliar no atendimento telefônico e no recebimento de clientes até ajudar na organização de documentos e na elaboração de relatórios. Cada dia trazia consigo novos desafios e oportunidades de crescimento, e eu estava sempre rodeado por uma equipe dedicada e disposta a compartilhar seu conhecimento e experiência comigo..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Estagio em TI - Online telecom</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                No meu estágio na Online Telecom, eu mergulhei de cabeça no mundo dinâmico e pulsante da tecnologia da informação. Desde o primeiro dia, fui imerso em um ambiente vibrante, onde a conexão era a palavra de ordem.
+
+                Minhas responsabilidades eram tão diversas quanto empolgantes. Começando com tarefas mais básicas, como auxiliar na configuração de roteadores e na instalação de equipamentos de rede, até mergulhar em projetos mais complexos, como otimizar a infraestrutura de servidores e desenvolver soluções para melhorar a experiência do usuário.
+              </p>
+
+            </li>
+
+            
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Aptidião para dialogos em inglês</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Resolução de problemas</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Gestão de projetos</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+
+            <article class="portfolio" data-page="portfolio">
+
+              <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+              </header>
+
+              <section class="projects">
+
+                <ul class="filter-list">
+
+                  <li class="filter-item">
+                    <button class="active" data-filter-btn>All</button>
+                  </li>
+
+                  <li class="filter-item">
+                    <button data-filter-btn>Web design</button>
+                  </li>
+
+                  <li class="filter-item">
+                    <button data-filter-btn>Applications</button>
+                  </li>
+
+                  <li class="filter-item">
+                    <button data-filter-btn>Web development</button>
+                  </li>
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                  <button class="filter-select" data-select>
+
+                    <div class="select-value" data-selecct-value>Select category</div>
+
+                    <div class="select-icon">
+                      <ion-icon name="chevron-down"></ion-icon>
+                    </div>
+
+                  </button>
+
+                  <ul class="select-list">
+
+                    <li class="select-item">
+                      <button data-select-item>All</button>
+                    </li>
+
+                    <li class="select-item">
+                      <button data-select-item>Web design</button>
+                    </li>
+
+                    <li class="select-item">
+                      <button data-select-item>Applications</button>
+                    </li>
+
+                    <li class="select-item">
+                      <button data-select-item>Web development</button>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <ul class="project-list">
+
+                  </ul>
+
+                  </section>
+
+                  </article>
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Projetos</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="Untitled design (1).png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Projeto Social Happy Dogs (2022)</h3>
+
+                  <p class="blog-text">
+                  Projeto social desenvolvido pelos alunos do terceiro ano do curso tecninco em informatica da instituição profissionalizante EEEP Maria Eudes Bezerra veras. O projeto tinha como proposito fornecer alimento e agua para cães de rua atraves de um prototipo desenvolvido com arduino. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+       <article class="contact" data-page="contact">
+
+       <header>
+         <h2 class="h2 article-title">Contact</h2>
+       </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.4397488568964!2d-46.69524101797236!3d-23.558192084660183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a7ad3a832db%3A0x53f1298e9a3841e7!2sRua%20Honore%20Daumier%2C%20S%C3%A3o%20Paulo%2C%20SP%2C%2004551-064!5e0!3m2!1sen!2sbr!4v1647608789441!5m2!1sen!2sbr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
